@@ -7,6 +7,26 @@
   font-family: luckiest guy;
   scroll-behavior: smooth;
 }
+#wrapper {
+  width: 90%;
+}
+
+#content {
+  width: 100%;
+}
+
+#sidebar-left {
+  width: 100%;
+  clear: both;
+}
+#sidebar-right {
+  width: 100%;
+  clear: both;
+
+  /* Additional styling for our new layout */
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
 body {
   min-height: 100vh;
   background: linear-gradient(#2b1055, #7597de);
